@@ -46,7 +46,7 @@ public class Main {
 
     /**
      * Sets up the required objects, loads up the data from the storage file, and prints the welcome message.
-     *
+     * Fake java doc
      * @param launchArgs arguments supplied by the user at program launch
      *
      */
