@@ -75,7 +75,7 @@ public class Parser {
         switch (commandWord) {
 
             case SortCommand.COMMAND_WORD:
-                return new SortCommand();
+                return new SortCommand(arguments);
 
             case AddCommand.COMMAND_WORD:
                 return prepareAdd(arguments);
