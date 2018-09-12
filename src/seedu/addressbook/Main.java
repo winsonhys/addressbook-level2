@@ -110,7 +110,6 @@ public class Main {
         try {
             command.setData(addressBook, lastShownList);
             CommandResult result = command.execute();
-            System.out.println(addressBook.getAllPersons().immutableListView());
             storage.save(addressBook);
             return result;
         } catch (Exception e) {
